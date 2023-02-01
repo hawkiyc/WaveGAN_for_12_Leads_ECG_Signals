@@ -1,3 +1,11 @@
+# Notifications Before Continuing 
+
+For those who came here from 'Paper With Code' Website, this implementation is not exactly the same with the paper 'A Generative Adversarial Approach To ECG Synthesis And Denoising'. Here is something you shall be aware of:
+
+1. This repository is only WaveGAN part, the rest is still in progress.
+2. For computing intensity issue, I am using CODE-15% Dataset, NOT PTB-XL.
+3. The hyperparameters are slightly different to the original article. You shall check and modify relevant hyperparameters in these two files, params.py and WaveGAN.py, if you want fully reproduce the results of original paper.
+
 # WaveGAN for 12 Leads ECG Signals
 
 12 Leads ECG is essential for identifying arrhythmia and other cardio malfunctions. However, it is always tricky to collect large amount of ECG data. With Deep Learning, generated ECG data can solve the problems of lacking data. In all candidates of generated model, GAN shows high performance in CV area. However, due to the nature of time series data, it is harder to generate long sequence than big picture before WaveGAN architecture. Here by, I bulid a WaveGAN model for create artificial 12 Leads ECG data. 
