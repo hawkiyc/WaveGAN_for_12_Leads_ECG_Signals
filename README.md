@@ -4,7 +4,7 @@ For those who came here from 'Paper With Code' Website, this implementation is n
 
 1. This repository is only WaveGAN part, the rest is still in progress.
 2. For computing intensity issue, I am using CODE-15% Dataset, NOT PTB-XL.
-3. The hyperparameters are slightly different to the original article. You shall check and modify relevant hyperparameters in these two files, params.py and WaveGAN.py, if you want fully reproduce the results of original paper.
+3. The hyperparameters are slightly different to the original article. You shall check and modify relevant hyperparameters in following files, "params.py, FetchData.py and WaveGAN.py", if you want fully reproduce the results of original paper.
 
 # WaveGAN for 12 Leads ECG Signals
 
