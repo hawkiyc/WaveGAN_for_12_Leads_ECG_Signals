@@ -8,7 +8,7 @@ For those who came here from 'Paper With Code' Website, this implementation is n
 
 # WaveGAN for 12 Leads ECG Signals
 
-12 Leads ECG is essential for identifying arrhythmia and other cardio malfunctions. However, it is always tricky to collect large amount of ECG data. With Deep Learning, generated ECG data can solve the problems of lacking data. In all candidates of generated model, GAN shows high performance in CV area. However, due to the nature of time series data, it is harder to generate long sequence than big picture before WaveGAN architecture. Here by, I bulid a WaveGAN model for create artificial 12 Leads ECG data. 
+12 Leads ECG is essential for identifying arrhythmia and other cardio malfunctions. However, it is always tricky to collect large amount of ECG data. With Deep Learning, generated ECG data can solve the problems of lacking data. GAN shows high performance in CV area for all candidates of generating model. However, due to the nature of time series data, it is harder to generate long sequence than big picture before WaveGAN architecture. Here by, I bulid a WaveGAN model for create artificial 12 Leads ECG data. 
 
 Here are results for this WaveGAN model
 ![12](https://user-images.githubusercontent.com/76748651/215320318-817564a6-a8a1-4108-81da-65de5e5ec138.png)
